@@ -1,0 +1,40 @@
+{
+  "id": "album",
+  "title": "Album / Music Masters (proven quality lock)",
+  "description": "Same settings as 'Noch ein Bier bis zum Mond': clean intended lyrics, English default, exact word timestamps, full handoff into project folder.",
+  "quality_lock": {
+    "word_timestamps": true,
+    "speculative_decoding": false,
+    "longform_strategy": "continuation",
+    "hallucination_mitigation": true,
+    "formats": ["json", "tsv", "srt", "vtt", "txt"],
+    "write_handoff": true
+  },
+  "defaults": {
+    "model": "turbo",
+    "language": "en",
+    "mode": "intended",
+    "backend": "auto",
+    "device": "auto",
+    "compute_type": "float16",
+    "jobs": 1
+  },
+  "project": {
+    "audio_dir_candidates": [
+      "01 WAV Masters",
+      "01_WAV_Masters",
+      "WAV Masters",
+      "wav",
+      "audio",
+      "masters"
+    ],
+    "deploy_folder_name": "Timestamps",
+    "deploy_number_prefix": true,
+    "prefer_existing_named": "Timestamps"
+  },
+  "notes": [
+    "Wrong language often yields empty chunks — set --language to match vocals.",
+    "Instrumentals may legitimately have word_count=0.",
+    "For denser lyrics quality, use profile album-hq (medium model)."
+  ]
+}

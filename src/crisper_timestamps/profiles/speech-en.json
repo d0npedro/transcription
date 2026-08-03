@@ -1,0 +1,28 @@
+{
+  "id": "speech-en",
+  "title": "English speech / interview",
+  "description": "Verbatim English with exact word timestamps and handoff.",
+  "quality_lock": {
+    "word_timestamps": true,
+    "speculative_decoding": false,
+    "longform_strategy": "continuation",
+    "hallucination_mitigation": true,
+    "formats": ["json", "tsv", "srt", "vtt", "txt"],
+    "write_handoff": true
+  },
+  "defaults": {
+    "model": "turbo",
+    "language": "en",
+    "mode": "verbatim",
+    "backend": "auto",
+    "device": "auto",
+    "compute_type": "float16",
+    "jobs": 1
+  },
+  "project": {
+    "audio_dir_candidates": ["audio", "input", "wav", "recordings"],
+    "deploy_folder_name": "Timestamps",
+    "deploy_number_prefix": true,
+    "prefer_existing_named": "Timestamps"
+  }
+}

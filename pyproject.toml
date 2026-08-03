@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crisper-timestamps"
+version = "1.0.0"
+description = "Idiotensicheres Tool: exakte Wort-Timestamps aus Audio via CrisperWhisper 2.0"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "transcription" }]
+dependencies = [
+    "crisperwhisper[transformers]>=0.2",
+    # Upstream CT2: only needed so crisperwhisper.hallucination can import on
+    # the transformers backend (module-level import even for find_token_loop).
+    # The Linux-only crisperwhisper[ct2] fork is separate and optional.
+    "ctranslate2>=4.5",
+]
+
+[project.optional-dependencies]
+# Linux + NVIDIA: schnelleres CTranslate2-Backend (nicht auf Windows)
+ct2 = ["crisperwhisper[ct2]>=0.2"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+crisper-timestamps = "crisper_timestamps.cli:main"
+timestamps = "crisper_timestamps.cli:main"
+timestamps-handoff = "crisper_timestamps.handoff:main"
+timestamps-repeat = "crisper_timestamps.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+crisper_timestamps = ["py.typed", "profiles/*.json"]

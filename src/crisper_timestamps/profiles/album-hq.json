@@ -1,0 +1,15 @@
+{
+  "id": "album-hq",
+  "title": "Album HQ (medium model)",
+  "description": "Same quality locks as album, but model=medium for better lyric accuracy (slower).",
+  "extends": "album",
+  "defaults": {
+    "model": "medium",
+    "language": "en",
+    "mode": "intended",
+    "backend": "auto",
+    "device": "auto",
+    "compute_type": "float16",
+    "jobs": 1
+  }
+}
