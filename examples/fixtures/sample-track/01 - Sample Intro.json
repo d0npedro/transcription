@@ -1,0 +1,25 @@
+{
+  "source": "examples/fixtures/audio-not-included/01 - Sample Intro.wav",
+  "model": "turbo",
+  "text": "Hey, this is a sample intro. Turn it up, and enjoy the journey!",
+  "language": "en",
+  "mode": "intended",
+  "duration": 12.5,
+  "processing_time": 1.2,
+  "words": [
+    { "word": "Hey,", "start": 0.12, "end": 0.4 },
+    { "word": "this", "start": 0.42, "end": 0.58 },
+    { "word": "is", "start": 0.58, "end": 0.68 },
+    { "word": "a", "start": 0.68, "end": 0.74 },
+    { "word": "sample", "start": 0.74, "end": 1.1 },
+    { "word": "intro.", "start": 1.1, "end": 1.55 },
+    { "word": "Turn", "start": 2.0, "end": 2.25 },
+    { "word": "it", "start": 2.25, "end": 2.35 },
+    { "word": "up,", "start": 2.35, "end": 2.6 },
+    { "word": "and", "start": 3.0, "end": 3.15 },
+    { "word": "enjoy", "start": 3.15, "end": 3.5 },
+    { "word": "the", "start": 3.5, "end": 3.65 },
+    { "word": "journey!", "start": 3.65, "end": 4.2 }
+  ],
+  "word_count": 13
+}

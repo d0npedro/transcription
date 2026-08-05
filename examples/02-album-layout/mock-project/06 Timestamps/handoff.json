@@ -1,0 +1,191 @@
+{
+  "schema": "crisper-timestamps.handoff/v1",
+  "schema_version": 1,
+  "id": "sample-album-mock",
+  "created_at": "2026-08-05T12:16:54.702492+00:00",
+  "generator": "crisper-timestamps",
+  "source": {
+    "path": "examples/02-album-layout/mock-project/01 WAV Masters",
+    "type": "directory"
+  },
+  "run": {
+    "model": "turbo",
+    "language": "en",
+    "mode": "intended"
+  },
+  "output_dir": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps",
+  "output_dir_uri": "file:///D:/Projects/transcription/examples/02-album-layout/mock-project/06%20Timestamps",
+  "tracks": [
+    {
+      "id": "01-sample-intro",
+      "stem": "01 - Sample Intro",
+      "source_audio": "examples/fixtures/audio-not-included/01 - Sample Intro.wav",
+      "duration": 12.5,
+      "word_count": 13,
+      "text": "Hey, this is a sample intro. Turn it up, and enjoy the journey!",
+      "text_preview": "Hey, this is a sample intro. Turn it up, and enjoy the journey!",
+      "language": "en",
+      "mode": "intended",
+      "model": "turbo",
+      "artifacts": {
+        "json": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\01 - Sample Intro.json",
+        "tsv": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\01 - Sample Intro.tsv",
+        "srt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\01 - Sample Intro.srt",
+        "vtt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\01 - Sample Intro.vtt",
+        "txt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\01 - Sample Intro.txt"
+      },
+      "artifacts_relative": {
+        "json": "01 - Sample Intro.json",
+        "tsv": "01 - Sample Intro.tsv",
+        "srt": "01 - Sample Intro.srt",
+        "vtt": "01 - Sample Intro.vtt",
+        "txt": "01 - Sample Intro.txt"
+      }
+    },
+    {
+      "id": "02-instrumental",
+      "stem": "02 - Instrumental",
+      "source_audio": "examples/fixtures/audio-not-included/02 - Instrumental.wav",
+      "duration": 180.0,
+      "word_count": 0,
+      "text": "",
+      "text_preview": "",
+      "language": "en",
+      "mode": "intended",
+      "model": "turbo",
+      "artifacts": {
+        "json": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\02 - Instrumental.json",
+        "tsv": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\02 - Instrumental.tsv",
+        "srt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\02 - Instrumental.srt",
+        "vtt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\02 - Instrumental.vtt",
+        "txt": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\02 - Instrumental.txt"
+      },
+      "artifacts_relative": {
+        "json": "02 - Instrumental.json",
+        "tsv": "02 - Instrumental.tsv",
+        "srt": "02 - Instrumental.srt",
+        "vtt": "02 - Instrumental.vtt",
+        "txt": "02 - Instrumental.txt"
+      }
+    }
+  ],
+  "summary": {
+    "track_count": 2,
+    "tracks_with_words": 1,
+    "tracks_empty": 1,
+    "total_words": 13
+  },
+  "word_schema": {
+    "type": "object",
+    "required": [
+      "word",
+      "start",
+      "end"
+    ],
+    "properties": {
+      "word": {
+        "type": "string",
+        "description": "Token text (may include punctuation)"
+      },
+      "start": {
+        "type": "number",
+        "description": "Start time in seconds from audio start"
+      },
+      "end": {
+        "type": "number",
+        "description": "End time in seconds from audio start"
+      }
+    }
+  },
+  "track_json_schema": {
+    "type": "object",
+    "required": [
+      "source",
+      "model",
+      "text",
+      "language",
+      "mode",
+      "words",
+      "word_count"
+    ],
+    "properties": {
+      "source": {
+        "type": "string"
+      },
+      "model": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "language": {
+        "type": "string"
+      },
+      "mode": {
+        "type": "string",
+        "enum": [
+          "verbatim",
+          "intended",
+          "forced_align"
+        ]
+      },
+      "duration": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "processing_time": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "words": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "word",
+            "start",
+            "end"
+          ],
+          "properties": {
+            "word": {
+              "type": "string",
+              "description": "Token text (may include punctuation)"
+            },
+            "start": {
+              "type": "number",
+              "description": "Start time in seconds from audio start"
+            },
+            "end": {
+              "type": "number",
+              "description": "End time in seconds from audio start"
+            }
+          }
+        }
+      },
+      "word_count": {
+        "type": "integer"
+      }
+    }
+  },
+  "import": {
+    "recommended_artifact": "json",
+    "entry_file": "handoff.json",
+    "human_readme": "HANDOFF.md",
+    "primary_paths": {
+      "handoff_json": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\handoff.json",
+      "handoff_md": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\HANDOFF.md",
+      "output_dir": "D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps"
+    },
+    "copy_to_other_project": {
+      "powershell": "New-Item -ItemType Directory -Force -Path \"<ZIEL-PROJEKT>/assets/timestamps/sample-album-mock\" | Out-Null; Copy-Item -Recurse -Force \"D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\\*\" \"<ZIEL-PROJEKT>/assets/timestamps/sample-album-mock\\\"",
+      "cmd": "xcopy /E /I /Y \"D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps\" \"<ZIEL-PROJEKT>/assets/timestamps/sample-album-mock\"",
+      "bash": "mkdir -p \"<ZIEL-PROJEKT>/assets/timestamps/sample-album-mock\" && cp -R \"D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps/.\" \"<ZIEL-PROJEKT>/assets/timestamps/sample-album-mock/\""
+    },
+    "consumer_snippet_python": "import json\nfrom pathlib import Path\nhandoff = json.loads(Path(r'D:\\Projects\\transcription\\examples\\02-album-layout\\mock-project\\06 Timestamps/handoff.json').read_text(encoding='utf-8'))\nfor track in handoff['tracks']:\n    if track['word_count'] == 0:\n        continue\n    data = json.loads(Path(track['artifacts']['json']).read_text(encoding='utf-8'))\n    for w in data['words']:\n        print(track['stem'], w['start'], w['end'], w['word'])\n",
+    "consumer_snippet_ts": "import handoff from './handoff.json';\nfor (const track of handoff.tracks) {\n  if (!track.word_count) continue;\n  // load track.artifacts.json next to this handoff\n}\n"
+  }
+}

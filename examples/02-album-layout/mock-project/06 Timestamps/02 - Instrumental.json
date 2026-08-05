@@ -1,0 +1,11 @@
+{
+  "source": "examples/fixtures/audio-not-included/02 - Instrumental.wav",
+  "model": "turbo",
+  "text": "",
+  "language": "en",
+  "mode": "intended",
+  "duration": 180.0,
+  "processing_time": 8.0,
+  "words": [],
+  "word_count": 0
+}

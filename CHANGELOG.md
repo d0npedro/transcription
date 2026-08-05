@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] — 2026-08-05
+
+### Added
+- `examples/` — single-file, album layout mock, handoff consumers, sample fixtures
+- PowerShell recipe helpers in `examples/commands.ps1`
+
 ## [1.0.0] — 2026-08-03
 
 Initial release: CrisperWhisper word-level timestamps with quality-locked repeat pipeline.

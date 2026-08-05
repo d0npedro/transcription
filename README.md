@@ -4,6 +4,20 @@ Idiotensicheres Tool: **exakte Wort-Timestamps** aus Audio mit
 [CrisperWhisper 2.0](https://github.com/nyrahealth/CrisperWhisper)
 (~30 ms mittlere Boundary-Fehler auf gelesener Sprache).
 
+## Examples
+
+See **[`examples/`](examples/)** for:
+
+- single-file CLI recipes
+- album layout (`01 WAV Masters` → `NN Timestamps`)
+- handoff consumers (Python / TypeScript)
+- checked-in fixtures (export shape only, no large WAVs)
+
+```powershell
+.\.venv\Scripts\python.exe examples\03-handoff-consumer\consume_handoff.py `
+  examples\02-album-layout\mock-project\06 Timestamps\handoff.json
+```
+
 ## Schnellstart (Windows)
 
 1. **Python 3.10+** installieren ([python.org](https://www.python.org/downloads/), „Add to PATH“)
