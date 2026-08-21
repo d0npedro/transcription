@@ -13,9 +13,13 @@ class WordTiming:
     word: str
     start: float
     end: float
+    speaker: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
-        return {"word": self.word, "start": self.start, "end": self.end}
+        data: dict[str, Any] = {"word": self.word, "start": self.start, "end": self.end}
+        if self.speaker is not None:
+            data["speaker"] = self.speaker
+        return data
 
 
 @dataclass

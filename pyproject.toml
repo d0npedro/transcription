@@ -21,6 +21,7 @@ dependencies = [
 [project.optional-dependencies]
 # Linux + NVIDIA: schnelleres CTranslate2-Backend (nicht auf Windows)
 ct2 = ["crisperwhisper[ct2]>=0.2"]
+diarize = ["pyannote.audio"]
 dev = ["pytest>=7.0"]
 
 [project.scripts]

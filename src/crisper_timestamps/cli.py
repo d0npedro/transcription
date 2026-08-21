@@ -107,6 +107,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Longform: continuation = beste Timestamps (default); *_lcs = parallelisierbar",
     )
     p.add_argument(
+        "--diarize",
+        action="store_true",
+        help="Sprecher mit optionalem pyannote.audio erkennen",
+    )
+    p.add_argument(
         "--handoff-id",
         default=None,
         help="ID/Slug für handoff.json (default: Output-Ordnername)",
@@ -142,6 +147,7 @@ def _worker(payload: dict) -> dict:
         language=payload["language"],
         mode=payload["mode"],
         longform_strategy=payload["longform_strategy"],
+        diarize=payload["diarize"],
     )
     result = engine.transcribe_file(audio)
     formats = payload["formats"]
@@ -211,6 +217,7 @@ def run_parallel(files: list[Path], args: argparse.Namespace, formats: list[str]
             "language": args.language,
             "mode": args.mode,
             "longform_strategy": args.longform_strategy,
+            "diarize": args.diarize,
             "formats": formats,
             "output": str(args.output),
         }
@@ -285,6 +292,7 @@ def main(argv: list[str] | None = None) -> int:
             language=args.language,
             mode=args.mode,
             longform_strategy=args.longform_strategy,
+            diarize=args.diarize,
         )
         results = run_sequential(files, engine, args.output, formats)
 

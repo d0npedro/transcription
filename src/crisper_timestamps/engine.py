@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import os
 import sys
 from pathlib import Path
 from typing import Any
 
 from crisper_timestamps.export import TranscriptResult, WordTiming
+
+logger = logging.getLogger(__name__)
 
 # Supported audio extensions (ffmpeg/soundfile via CrisperWhisper)
 AUDIO_EXTENSIONS = {
@@ -109,6 +112,7 @@ class TimestampEngine:
         language: str = "de",
         mode: str = "verbatim",
         longform_strategy: str = "continuation",
+        diarize: bool = False,
     ) -> None:
         self.model_name = MODEL_ALIASES.get(model, model)
         self.backend = resolve_backend(backend)
@@ -117,6 +121,7 @@ class TimestampEngine:
         self.language = language
         self.mode = mode
         self.longform_strategy = longform_strategy
+        self.diarize = diarize
         self._model: Any = None
 
     def load(self) -> None:
@@ -176,6 +181,27 @@ class TimestampEngine:
                 else:
                     continue
             words.append(WordTiming(word=str(word), start=float(start), end=float(end)))
+
+        if self.diarize:
+            from crisper_timestamps.diarize import assign_speakers
+
+            word_dicts = [word.to_dict() for word in words]
+            try:
+                from crisper_timestamps.diarize import run_diarization
+
+                segments = run_diarization(audio_path)
+            except Exception as exc:
+                logger.warning("Diarisierung fehlgeschlagen; verwende speaker_unknown: %s", exc)
+                segments = []
+            words = [
+                WordTiming(
+                    word=str(word["word"]),
+                    start=float(word["start"]),
+                    end=float(word["end"]),
+                    speaker=str(word["speaker"]),
+                )
+                for word in assign_speakers(word_dicts, segments)
+            ]
 
         return TranscriptResult(
             text=str(getattr(result, "text", "") or ""),

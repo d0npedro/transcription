@@ -2,7 +2,26 @@
 
 from __future__ import annotations
 
+import os
+from pathlib import Path
+
 UNKNOWN_SPEAKER = "speaker_unknown"
+DIARIZATION_MODEL = "pyannote/speaker-diarization-3.1"
+
+
+def run_diarization(audio_path: Path, *, hf_token: str | None = None) -> list[dict]:
+    """Run optional pyannote speaker diarization and return normalized segments."""
+    from pyannote.audio import Pipeline
+
+    token = hf_token or os.environ.get("HF_TOKEN") or os.environ.get("CRISPER_HF_TOKEN")
+    pipeline = Pipeline.from_pretrained(DIARIZATION_MODEL, use_auth_token=token)
+    output = pipeline(str(audio_path.expanduser().resolve()))
+    annotation = getattr(output, "speaker_diarization", output)
+
+    return [
+        {"id": str(speaker), "start": float(turn.start), "end": float(turn.end)}
+        for turn, _track, speaker in annotation.itertracks(yield_label=True)
+    ]
 
 
 def _overlap(start_a: float, end_a: float, start_b: float, end_b: float) -> float:

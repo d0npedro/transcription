@@ -88,6 +88,20 @@ Ergebnis liegt in **`output/`** (Arbeitskopie) und im **Projektordner**:
 | `--formats` | `json,tsv,srt,vtt,txt` | Exportformate |
 | `-j / --jobs` | `1` | Parallele Dateien (Process-Pool; nur bei multi-GPU/CPU sinnvoll) |
 | `--longform-strategy` | `continuation` | Beste Timestamps; `chunked_lcs` parallelisierbar, etwas ungenauer an Chunk-Grenzen |
+| `--diarize` | aus | Sprecherzuordnung mit optionalem pyannote.audio |
+
+### Optionale Sprechererkennung
+
+```powershell
+pip install -e ".[diarize]"
+$env:HF_TOKEN = "hf_..."  # alternativ CRISPER_HF_TOKEN
+timestamps interview.wav --diarize
+```
+
+Vor dem ersten Lauf müssen die Nutzungsbedingungen des
+`pyannote/speaker-diarization-3.1`-Modells auf Hugging Face akzeptiert werden.
+Falls pyannote fehlt oder die Diarisierung fehlschlägt, bleibt der ASR-Lauf
+erfolgreich und alle Wörter erhalten `speaker_unknown`.
 
 ## Genauigkeit der Timestamps
 

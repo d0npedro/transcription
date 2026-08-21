@@ -95,6 +95,7 @@ def run_pipeline(
     source_meta: Path | None = None,
     deploy_to: Path | None = None,
     recursive: bool = False,
+    diarize: bool = False,
 ) -> dict[str, Any]:
     """Transcribe → export → handoff → optional deploy. Returns summary dict."""
     files = collect_audio_files(audio_paths, recursive=recursive)
@@ -113,6 +114,7 @@ def run_pipeline(
         language=str(cfg["language"]),
         mode=str(cfg["mode"]),
         longform_strategy=str(cfg.get("longform_strategy", "continuation")),
+        diarize=diarize,
     )
 
     print("=" * 64)
@@ -306,6 +308,11 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("-j", "--jobs", type=int, default=None)
     p.add_argument("-r", "--recursive", action="store_true")
     p.add_argument(
+        "--diarize",
+        action="store_true",
+        help="Sprecher mit optionalem pyannote.audio erkennen",
+    )
+    p.add_argument(
         "--unlock",
         action="store_true",
         help="Erlaubt Quality-Lock-Overrides (nicht empfohlen)",
@@ -409,6 +416,7 @@ def main(argv: list[str] | None = None) -> int:
             source_meta=source_meta,
             deploy_to=deploy_to,
             recursive=args.recursive,
+            diarize=args.diarize,
         )
     except FileNotFoundError as exc:
         print(f"FEHLER: {exc}", file=sys.stderr)
