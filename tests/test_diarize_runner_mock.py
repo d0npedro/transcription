@@ -26,27 +26,58 @@ class _Annotation:
         yield _Turn(1.25, 2.5), "track-1", "SPEAKER_01"
 
 
-def test_run_diarization_uses_pyannote_pipeline_and_env_token(monkeypatch, tmp_path: Path):
+def _install_fake_pipeline(monkeypatch, pipeline_type):
+    monkeypatch.setitem(sys.modules, "pyannote", SimpleNamespace(audio=SimpleNamespace(Pipeline=pipeline_type)))
+    monkeypatch.setitem(sys.modules, "pyannote.audio", SimpleNamespace(Pipeline=pipeline_type))
+
+
+def test_run_diarization_uses_token_kwarg_for_pyannote4(monkeypatch, tmp_path: Path):
     audio = tmp_path / "clip.wav"
     audio.touch()
     loaded_pipeline = Mock(return_value=_Annotation())
-    pipeline_type = Mock()
-    pipeline_type.from_pretrained.return_value = loaded_pipeline
-    monkeypatch.setitem(sys.modules, "pyannote", SimpleNamespace(audio=SimpleNamespace(Pipeline=pipeline_type)))
-    monkeypatch.setitem(sys.modules, "pyannote.audio", SimpleNamespace(Pipeline=pipeline_type))
+    from_pretrained = Mock(return_value=loaded_pipeline)
+
+    class _Pipeline:
+        @staticmethod
+        def from_pretrained(model, *, token=None):
+            return from_pretrained(model, token=token)
+
+    _install_fake_pipeline(monkeypatch, _Pipeline)
     monkeypatch.setenv("CRISPER_HF_TOKEN", "secret")
 
     segments = run_diarization(audio)
 
-    pipeline_type.from_pretrained.assert_called_once_with(
+    from_pretrained.assert_called_once_with(
         "pyannote/speaker-diarization-3.1",
-        use_auth_token="secret",
+        token="secret",
     )
     loaded_pipeline.assert_called_once_with(str(audio.resolve()))
     assert segments == [
         {"id": "SPEAKER_00", "start": 0.0, "end": 1.25},
         {"id": "SPEAKER_01", "start": 1.25, "end": 2.5},
     ]
+
+
+def test_run_diarization_falls_back_to_use_auth_token(monkeypatch, tmp_path: Path):
+    audio = tmp_path / "clip.wav"
+    audio.touch()
+    loaded_pipeline = Mock(return_value=_Annotation())
+    from_pretrained = Mock(return_value=loaded_pipeline)
+
+    class _Pipeline:
+        @staticmethod
+        def from_pretrained(model, *, use_auth_token=None):
+            return from_pretrained(model, use_auth_token=use_auth_token)
+
+    _install_fake_pipeline(monkeypatch, _Pipeline)
+    monkeypatch.setenv("CRISPER_HF_TOKEN", "secret")
+
+    run_diarization(audio)
+
+    from_pretrained.assert_called_once_with(
+        "pyannote/speaker-diarization-3.1",
+        use_auth_token="secret",
+    )
 
 
 def _fake_asr_result():

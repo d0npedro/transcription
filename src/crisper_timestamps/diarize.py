@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import inspect
 import os
 from pathlib import Path
 
@@ -9,12 +10,25 @@ UNKNOWN_SPEAKER = "speaker_unknown"
 DIARIZATION_MODEL = "pyannote/speaker-diarization-3.1"
 
 
+def _pipeline_from_pretrained(Pipeline, model: str, token: str | None):
+    """Load pyannote pipeline with a Hugging Face token kwarg compatible across versions."""
+    if token is None:
+        return Pipeline.from_pretrained(model)
+
+    params = inspect.signature(Pipeline.from_pretrained).parameters
+    if "token" in params:
+        return Pipeline.from_pretrained(model, token=token)
+    if "use_auth_token" in params:
+        return Pipeline.from_pretrained(model, use_auth_token=token)
+    return Pipeline.from_pretrained(model)
+
+
 def run_diarization(audio_path: Path, *, hf_token: str | None = None) -> list[dict]:
     """Run optional pyannote speaker diarization and return normalized segments."""
     from pyannote.audio import Pipeline
 
     token = hf_token or os.environ.get("HF_TOKEN") or os.environ.get("CRISPER_HF_TOKEN")
-    pipeline = Pipeline.from_pretrained(DIARIZATION_MODEL, use_auth_token=token)
+    pipeline = _pipeline_from_pretrained(Pipeline, DIARIZATION_MODEL, token)
     output = pipeline(str(audio_path.expanduser().resolve()))
     annotation = getattr(output, "speaker_diarization", output)
 
