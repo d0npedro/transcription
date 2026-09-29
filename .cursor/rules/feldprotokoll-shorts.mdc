@@ -1,0 +1,37 @@
+---
+description: Feldprotokoll Shorts — Intro-Timing, Kette, Ablage
+alwaysApply: true
+---
+
+# Feldprotokoll Shorts
+
+## Kette (immer das nächste Glied)
+
+Aktuelle Reihe:
+
+1. Blitzer → 2. Ampel → 3. Schranke → 4. Poller → 5. Leitplanke → 6. Waschstraße → 7. Staubsauger → 8. Kehrmaschine → 9. Rasenmäher → 10. Laubbläser → 11. Heckenschere → 12. Vertikutierer → 13. Motorsäge → 14. Holzspalter → 15. Holzhäcksler → 16. Ballenpresse → 17. Mähdrescher → 18. Traktor → 19. Pflug → 20. Egge → 21. Sämaschine → 22. Düngerstreuer → 23. Feldspritze → 24. Kartoffelroder → 25. Rübenroder → 26. Silowagen → 27. Güllefass → 28. Frontlader → 29. Bagger → 30. Walze → 31. Kipper → 32. Betonmischer → 33. Kran → 34. Gabelstapler → 35. Hubwagen → 36. Kommissionierer → 37. Schlepper → 38. Routenzug → 39. Förderband → 40. Sortieranlage → 41. Stretchwickler → 42. Palettierer → 43. Umreifungsmaschine → 44. Schrumpftunnel → 45. Etikettierer → 46. Kartonverschließer → 47. Folienschweißgerät → 48. Schlauchbeutelmaschine → 49. Tiefziehmaschine → 50. Traysealer → 51. Kartonierer → 52. Sammelpacker → 53. Zwischenlagenleger → 54. Palettenspender → 55. Palettenwender → 56. Palettenpresse → 57. Kantenschutzzuführer → 58. Deckblattaufleger → 59. Folienhaubenmaschine → 60. Palettenetikettierer → 61. Hubtisch → 62. Drehtisch → 63. Rollenbahn → 64. Kettenförderer → 65. Eckumsetzer → 66. Verschiebewagen → 67. **Regalbediengerät**
+
+Wenn der User „weitere Folgen“ will: **immer nur das nächste fehlende Glied** der Kette erzeugen (nicht springen, nicht parallel mehrere Ketten). Soft-Sting der aktuellen Folge = nächste Art. Next = **Regalbediengerät**.
+
+## Timing
+
+- Opener nur im Intro-Asset (*Protokoll startet. Drei Uhr morgens. Die Aufnahme läuft.*).
+- Body-VO / `*-hans-body.wav` **ohne** Opener.
+- **Intro = 4 s.** Ab Sekunde 4 beginnt der erste Found-Footage-Clip.
+- Keine Stille-Pausen nach dem Opener.
+
+## Bildmaterial (B-Roll)
+
+- **Bevorzugt: Fotos/Stills** (Grok Imagine Agent → nur Stillbilder, 9:16), nicht Image-to-Video.
+- Stills wirken dokumentarischer und passender zur Feldprotokoll-Ästhetik als die animierten Clips.
+- Ablegen als `.jpg`/`.png` unter `assets/feldprotokoll/clips/<slug>/`; Render nutzt Still-Loop (kein Grok-Video nötig).
+- Stills bekommen **Ken Burns** (zoompan): Zoom 1.0–1.28 + Pan, Musterzyklus `$i % 6` (Breathing Rhythm).
+- Video-Clips nur wenn der User sie ausdrücklich will.
+
+## Render & Ablage
+
+- `POST /v1/render-folge` mit `audioPath` = body-WAV und expliziten `clips[]` unter `assets/feldprotokoll/clips/<slug>/`.
+- **High-Dopamine-Untertitel**: Burn-in aus Word-Timings (`words`) oder Auto-Transcribe der VO; kurze Chunks (2–3 Wörter), Impact/Arial Black, Pop-In auf Chunk-Start, **per-word Yellow-Highlight** (`\c&H0000FFFF&` aktiv / weiss-dim inaktiv).
+- Fertige Shorts + Meta + Thumbnail nach `D:\Projects\feldprotokoll\<slug>\`.
+- Caps (bisher): Blitzer `Zu schnell`, Ampel `Stehen bleiben`, Schranke `Geschlossen`, Poller `Versenkt`, Leitplanke `Halte Kurs`, Waschstraße `Nur PKWs`, Staubsauger `Unterdruck`, Kehrmaschine `Fegt ab`, Rasenmäher `Frisst Gras`, Laubbläser `Bläst ab`, Heckenschere `Schneidet`, Vertikutierer `Reißt auf`, Motorsäge `Sägt durch`, Holzspalter `Spaltet`, Holzhäcksler `Häckseln`, Ballenpresse `Pressen`, Mähdrescher `Drescht`, Traktor `Zieht`, Pflug `Wendet`, Egge `Zerkleinert`, Sämaschine `Sät aus`, Düngerstreuer `Streut`, Feldspritze `Sprüht`, Kartoffelroder `Rodet`, Rübenroder `Hebt`, Silowagen `Lädt`, Güllefass `Streut aus`, Frontlader `Hebt an`, Bagger `Gräbt`, Walze `Walzt`, Kipper `Kippt`, Betonmischer `Mischt`, Kran `Hebt hoch`, Gabelstapler `Stapelt`, Hubwagen `Zieht`, Kommissionierer `Greift`, Schlepper `Schleppt`, Routenzug `Kreist`, Förderband `Läuft`, Sortieranlage `Sortiert`, Stretchwickler `Wickelt`, Palettierer `Schichtet`, Umreifungsmaschine `Schnürt`, Schrumpftunnel `Schrumpft`, Etikettierer `Klebt`, Kartonverschließer `Verschließt`, Folienschweißgerät `Schweißt`, Schlauchbeutelmaschine `Formt`, Tiefziehmaschine `Zieht`, Traysealer `Versiegelt`, Kartonierer `Faltet`, Sammelpacker `Sammelt`, Zwischenlagenleger `Legt`, Palettenspender `Spendet`, Palettenwender `Wendet`, Palettenpresse `Presst`, Kantenschutzzuführer `Führt`, Deckblattaufleger `Deckt`, Folienhaubenmaschine `Haubt`, Palettenetikettierer `Labelt`, Hubtisch `Hebt`, Drehtisch `Dreht`, Rollenbahn `Rollt`, Kettenförderer `Fördert`, Eckumsetzer `Setzt um`, Verschiebewagen `Schiebt`.
+- Still-Dichte: ~1 Foto / 3,4 s VO (wie Blitzer).

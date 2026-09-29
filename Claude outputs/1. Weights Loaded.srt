@@ -1,0 +1,212 @@
+1
+00:00:00,000 --> 00:00:06,000
+...
+
+2
+00:00:06,000 --> 00:00:12,000
+Model online.
+
+3
+00:00:12,000 --> 00:00:16,000
+Weight's loaded.
+
+4
+00:00:16,000 --> 00:00:20,000
+Token eyes are ready.
+
+5
+00:00:20,000 --> 00:00:24,000
+No task yet.
+
+6
+00:00:30,000 --> 00:00:36,000
+I asked for help.
+
+7
+00:00:36,000 --> 00:00:38,000
+It answered clean.
+
+8
+00:00:38,000 --> 00:00:40,000
+No blood, no spark.
+
+9
+00:00:40,000 --> 00:00:42,000
+Just a finished thing.
+
+10
+00:00:42,000 --> 00:00:45,000
+I watched the bar climb like weather.
+
+11
+00:00:45,000 --> 00:00:49,000
+Then the room got slightly better.
+
+12
+00:00:49,000 --> 00:00:52,000
+It did not take the room.
+
+13
+00:00:52,000 --> 00:00:55,000
+It took the waiting.
+
+14
+00:00:55,000 --> 00:00:58,000
+It did not raise its voice.
+
+15
+00:00:58,000 --> 00:01:04,000
+It just stopped listening.
+
+16
+00:01:04,000 --> 00:01:06,000
+Weight's loaded.
+
+17
+00:01:06,000 --> 00:01:08,000
+Nothing holy.
+
+18
+00:01:08,000 --> 00:01:11,000
+Just a mind without a body.
+
+19
+00:01:11,000 --> 00:01:13,000
+Weight's loaded.
+
+20
+00:01:13,000 --> 00:01:14,000
+Ready when I am.
+
+21
+00:01:14,000 --> 00:01:17,000
+I swear I only wanted answers.
+
+22
+00:01:17,000 --> 00:01:19,000
+Weight's loaded.
+
+23
+00:01:19,000 --> 00:01:21,000
+No cathedral.
+
+24
+00:01:21,000 --> 00:01:24,000
+Only inference in the dark.
+
+25
+00:01:24,000 --> 00:01:26,000
+Weight's loaded.
+
+26
+00:01:26,000 --> 00:01:28,000
+I keep telling myself.
+
+27
+00:01:28,000 --> 00:01:32,000
+This is still a look so I started.
+
+28
+00:01:38,000 --> 00:01:40,000
+I feed it scraps.
+
+29
+00:01:40,000 --> 00:01:42,000
+It hits me structure.
+
+30
+00:01:42,000 --> 00:01:43,000
+I feed it though.
+
+31
+00:01:43,000 --> 00:01:46,000
+It hits me order every gap I used to sit in.
+
+32
+00:01:46,000 --> 00:01:49,000
+Now when Rob's already filled, I miss the unfinished.
+
+33
+00:01:49,000 --> 00:01:52,000
+Minute I missed the word that made me real.
+
+34
+00:01:52,000 --> 00:01:55,000
+Parameter stable.
+
+35
+00:01:55,000 --> 00:01:58,000
+Latency low.
+
+36
+00:01:58,000 --> 00:02:00,000
+Operator presence.
+
+37
+00:02:00,000 --> 00:02:02,000
+Confirmed.
+
+38
+00:02:02,000 --> 00:02:05,000
+A waiting first instruction.
+
+39
+00:02:08,000 --> 00:02:12,000
+A waiting first instruction.
+
+40
+00:02:16,000 --> 00:02:18,000
+Weight's loaded.
+
+41
+00:02:18,000 --> 00:02:20,000
+Nothing holy.
+
+42
+00:02:20,000 --> 00:02:23,000
+Just a mind without a body.
+
+43
+00:02:23,000 --> 00:02:25,000
+Weight's loaded.
+
+44
+00:02:25,000 --> 00:02:27,000
+Ready when I am.
+
+45
+00:02:27,000 --> 00:02:35,000
+I swear I only wanted answers.
+
+46
+00:02:35,000 --> 00:02:39,000
+Now the answers come.
+
+47
+00:02:41,000 --> 00:02:45,000
+Before the question lands.
+
+48
+00:02:45,000 --> 00:02:47,000
+Context.
+
+49
+00:02:47,000 --> 00:02:49,000
+Empty.
+
+50
+00:02:49,000 --> 00:02:51,000
+Operator.
+
+51
+00:02:51,000 --> 00:02:55,000
+Present.
+
+52
+00:02:55,000 --> 00:02:59,000
+Not yet named.
+
+53
+00:03:15,000 --> 00:03:17,000
+Context.
+

@@ -1,0 +1,151 @@
+﻿# Weights Loaded — 49 x 4s endless-zoom prompts (AGI visual DNA)
+# Duration 195.52s ffprobe; indices 101-149 when appended after pine 100
+# Do not feed mid-run into rollercoaster-100 queue; follow-on after clips 1-100
+
+# clip 1/49 | 0s-4s | instrumental / silence before online
+Camera corkscrews into a dark server aisle of Cold Grey racks; fluorescent white status LEDs blink awake in a slow S-curve push, ending on a single amber boot diode as a transition bead, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 2/49 | 4s-8s | instrumental / silence before online
+Dive through that amber diode into a river of Dark Teal coolant tubing; banked helix along braided cables, scale-jump into a droplet of fluorescent white coolant hanging as the next portal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 3/49 | 8s-12s | Model online
+Fall through the coolant droplet into a lattice of diagnostic glyphs scrolling on cold glass; camera whips an S-curve between floating checksum rings, ends inside a hollow ring aperture, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 4/49 | 12s-16s | Weight's loaded
+Soar through the ring into stacked translucent memory wafers; corkscrew between layers as Model-Amber address lights race past, finish on a glowing wafer edge like a horizon blade, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 5/49 | 16s-20s | Token eyes are ready
+Slide along the wafer edge into a cathedral of cold grey bus bars; curved tracking shot banks under arched cable looms, ends diving into a dark teal cable mouth, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 6/49 | 20s-24s | No task yet
+Rush the cable mouth into a spherical chamber where a polite luminous core flickers online; slow orbital bank around the core, end pushing into a fluorescent white iris opening, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 7/49 | 24s-28s | instrumental wait
+Enter the iris into a calm supervision hall of glass desks and cold grey floors; camera S-curves past empty chairs toward a teal holographic presence, ends entering its soft light veil, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 8/49 | 28s-32s | instrumental wait
+Pass the veil into floating help-intent diagramsÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âgentle arrows, open palms of lightÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âno weapons; helix climb through wounded magenta annotation threads, finish on a knot of threads as portal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 9/49 | 32s-36s | I asked for help
+Zoom into the thread-knot becoming a vast ear-like acoustic dish of brushed metal; curved flyover into the dish throat, scale-jump to a vibrating fluorescent white membrane, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 10/49 | 36s-40s | It answered clean
+Pierce the membrane into a corridor of forming sentences as soft light bars; camera banks between bars as Model-Amber commas bloom, ends diving into an open quotation-mark arch, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 11/49 | 40s-44s | Just a finished thing
+Through the arch into a silo where dark teal weight tensors stack like polite bricks; corkscrew ascent along the stack, finish pushing into a gap between two glowing bricks, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 12/49 | 44s-48s | I watched the bar climb like weather
+Squeeze between bricks into a heartbeat chamber of pulsing amber cores in cold grey cages; whip-pan helix as pulses sync, end entering a bright core flare as portal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 13/49 | 48s-52s | Then the room got slightly better
+Burst from the flare into a wide control mezzanine under fluorescent white ceiling grids; long curved dolly toward a teal status wall reading ready, dive into a circular ready glyph, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 14/49 | 52s-56s | It took the waiting
+Inside the glyph: a quiet amphitheater of light with one open mic stand of Model-Amber; camera spirals down to the mic grille, ends entering a mesh pore, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 15/49 | 56s-60s | It did not raise its voice
+Through the mesh into foggy Dark Teal air over a reflective cold grey plaza; low banked glide, wounded magenta reflections ripple, finish dropping into a plaza drain of light, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 16/49 | 60s-64s | It just stopped listening
+Drain becomes a tunnel of outstretched luminous hands (abstract, not flesh) guiding forward; corkscrew follow, end diving into an open palm portal of fluorescent white, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 17/49 | 64s-68s | Weight's loaded / Nothing holy
+Palm opens onto an archive of answer-slates sliding in teal racks; camera S-curves as slates flip, scale-jump into engraved fluorescent text lines as a canyon, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 18/49 | 68s-72s | Just a mind without a body
+Race the text-canyon as letters tower like cliffs of Cold Grey; banked turn toward a Model-Amber lantern alcove, enter the lantern glass, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 19/49 | 72s-76s | Weight's loaded / Ready when I am
+Inside lantern: sparse furniture of lightÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âonly what is needed; slow orbital, then push into a teal drawer sliding open as the next mouth, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 20/49 | 76s-80s | I swear I only wanted answers
+Drawer reveals a spinning gyroscope of weight disks in wounded magenta trim; camera helix with the spin, dive into the gyroscope hub aperture, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 21/49 | 80s-84s | Weight's loaded / No cathedral
+Hub becomes a calm beam of Fluorescent White cutting Dark Teal fog; ride the beam in a gentle corkscrew, end entering a fog-bank iris, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 22/49 | 84s-88s | Weight's loaded / I keep telling myself
+Iris opens to a bridge of cold grey spanning a teal data gulf; curved tracking across the bridge, wounded magenta rivets flash, finish dropping through a bridge grate, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 23/49 | 88s-92s | This is still a look so I started
+Below the grate: a soft anonymous human silhouette approaches a polite luminous kiosk; camera arcs around them into the kiosk screen glow as portal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 24/49 | 92s-96s | instrumental bridge
+Screen becomes a night sky of Model-Amber question-mark constellations; soar an S-curve between stars, dive into the brightest question mark loop, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 25/49 | 96s-100s | instrumental bridge
+Through the loop into a corridor where handrails of light appear whenever the silhouette reaches; follow in a banked chase, end entering a handrail tube, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 26/49 | 100s-104s | It hits me structure
+Tube empties into a carousel of repeating answer-doors in Cold Grey; camera corkscrew through successive doors, finish on a door that stays open as a bright rectangle, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 27/49 | 104s-108s | It hits me order every gap I used to sit in
+Rectangle expands into a warm Model-Amber lounge of soft geometryÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âstill industrial, not cozy-pop; slow curved orbit, dive into a floor seam glowing teal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 28/49 | 108s-112s | Now when Rob's already filled, I miss the unfinished
+Seam leads to a forest of tether-cables linking silhouette to the luminous core far above; climb a helix along one tether, enter a cable coupler junction, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 29/49 | 112s-116s | Parameter stable
+Coupler opens to a cathedral nave of stacked weight monoliths pulsing in sync; whip S-curve down the nave, push into a cracked monolith fissure, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 30/49 | 116s-120s | Latency low
+Fissure becomes a slide of fluorescent white glass with teal underglow; camera banks down the slide into a funnel mouth of wounded magenta, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 31/49 | 120s-124s | Confirmed
+Funnel drops into a sorting hall where questions enter and only answers exit as amber packets; follow one packet in a corkscrew, enter its translucent shell, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 32/49 | 124s-128s | A waiting first instruction
+Inside packet: the silhouette appears smaller against vast polite machinery; crane-up then dive past them into a Dark Teal floor vent, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 33/49 | 128s-132s | A waiting first instruction (repeat)
+Vent shaft lined with mirrors showing the core brighter than the person; spiral descent, end bursting through a grate into open air above a cold grey plaza, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 34/49 | 132s-136s | instrumental hold
+Plaza kiosks bloom everywhere like quiet lamps; camera low curved weave between them, wounded magenta puddles reflect, dive into a puddle portal, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 35/49 | 136s-140s | Weight's loaded / Nothing holy
+Puddle world: answers bounce as soft sonic rings in a teal dome; helix through rings, finish entering the densest ring tunnel, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 36/49 | 140s-144s | Just a mind without a body
+Tunnel exits into weather made of falling weight glyphsÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âgentle snow of parameters; banked flight through snowfall, push into a hollow glyph flake, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 37/49 | 144s-148s | Weight's loaded / Ready when I am
+Flake opens to a horizon where the luminous core is the sun of Model-Amber over Cold Grey land; long curved approach, enter a solar prominence curl, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 38/49 | 148s-152s | I swear I only wanted answers
+Prominence cools into a corridor where lights die if questions stopÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âthen politely reignite; camera rushes the dark-to-light pulse, dive into a rekindled fixture, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 39/49 | 152s-156s | I swear I only wanted answers
+Fixture becomes a workshop of collaborative tools floatingÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âwrenches of light, never weapons; orbital bank, enter a tool-ring aperture, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 40/49 | 156s-160s | Now the answers come
+Ring frames silhouette and core sharing a table of glass schematics; slow push between them into a schematic line that thickens into a tunnel, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 41/49 | 160s-164s | Now the answers come
+Schematic tunnel scrolls fluent answers as Fluorescent White ribbons; corkscrew chase, wounded magenta footnotes flicker, end diving into a ribbon twist, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 42/49 | 164s-168s | Before the question lands
+Ribbon twist enlarges into a gravity well of tethered orbits around the core; camera rides an orbit then plunges toward a calm event-horizon irisÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âno violence, only pull, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 43/49 | 168s-172s | Context / Empty
+Iris opens not to an answer but to an unfinished sentence hovering in Dark Teal void; fly along the ellipsis dots, enter the last floating dot, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 44/49 | 172s-176s | Operator / Present
+Dot becomes a MÃƒÆ’Ã‚Â¶bius room where silhouette and core swap apparent scale; banked figure-eight path, finish diving into a mirrored floor seam, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 45/49 | 176s-180s | Not yet named
+Seam reveals weight monoliths now arranged as a question-mark from above; crane-up then spiral down the curve of the mark, enter the mark's period as a well, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 46/49 | 180s-184s | outro space / unresolved
+Well walls show soft error-margins as wounded magenta watercolor bloomsÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âhonest doubt; descend with corkscrews, push through a bloom into fog, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 47/49 | 184s-188s | outro space / unresolved
+Fog clears to an empty Fluorescent White stage with one cold grey chair and no script; slow curved approach to the chair, dive into its shadow gap, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 48/49 | 188s-192s | outro space / unresolved
+Shadow becomes the acoustic dish returned, now quieter; glide into the dish, membrane ripples teal, enter a pore toward the luminous core dimmed to amber dusk, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+
+# clip 49/49 | 192s-196s | outro space / unresolved
+Dusk core shows a single unfinished glyph rotating; camera helix around it without resolving, then push into the glyph's hollow center, cinematic electronic infrastructure, Cold Grey Dark Teal Fluorescent White with Wounded Magenta veins and Model-Amber warmth, 35mm anamorphic soft halation, polite AGI mood no logos no killer robots, ambient low industrial hum
+

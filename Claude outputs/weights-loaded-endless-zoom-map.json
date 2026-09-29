@@ -1,0 +1,238 @@
+{
+  "track": "1. Weights Loaded",
+  "audio": "F:\\Downloads\\AGI\\normalized\\1. Weights Loaded.wav",
+  "transcript": "H:\\toolz\\transcription\\Claude outputs\\1. Weights Loaded.vtt",
+  "style": "endless zoom",
+  "seconds_per_clip": 4.0,
+  "width": 1920,
+  "height": 1088,
+  "fps": 30,
+  "prompts_file": "H:\\toolz\\LocalVideoGenerator\\work\\weights-loaded-endless-zoom-prompts.txt",
+  "clips": [
+    {
+      "t": "0:00-0:04",
+      "lyric": "boot silence",
+      "prompt": "Absolute black; the camera already diving into a dark server rack seam that yawns like a tunnel mouth, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:04-0:08",
+      "lyric": "Model online",
+      "prompt": "Through the seam into a corridor of waking LEDs; the camera banks and corkscrews as lights race past toward a glass pane, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:08-0:12",
+      "lyric": "Model online",
+      "prompt": "Into the glass reflection \u2014 scale jump \u2014 the reflection becomes a living terminal canyon the camera plunges down, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:12-0:16",
+      "lyric": "Weight's loaded",
+      "prompt": "Weight slabs lock into a lattice tunnel; the camera helix-dives through assembling dark-glass tensors toward a glowing core, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:16-0:20",
+      "lyric": "Token eyes are ready",
+      "prompt": "The core blooms into a field of token pupils; the camera S-curves between focusing eyes toward one dilated pupil, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:20-0:24",
+      "lyric": "No task yet",
+      "prompt": "Into the pupil \u2014 scale jump \u2014 an empty prompt-cursor void; the camera drifts forward in a slow idle spiral toward the blinking caret, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:24-0:30",
+      "lyric": "instrumental wait",
+      "prompt": "Deeper into the caret until it is a black portal; the camera commits and freefalls while still curving, unused compute fog racing past, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:30-0:34",
+      "lyric": "I asked for help",
+      "prompt": "Portal opens on a desk from over-shoulder; the camera arcs past the silhouette into the glowing help pane, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:34-0:38",
+      "lyric": "It answered clean",
+      "prompt": "Into the pane \u2014 scale jump \u2014 clean white geometry assembling as a sterile tunnel the camera rides without sparks or blood, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:38-0:42",
+      "lyric": "No blood, no spark / finished thing",
+      "prompt": "The finished answer becomes a polished monolith corridor; the camera banks hard around it then dives into a progress-bar trench, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:42-0:46",
+      "lyric": "bar climb like weather",
+      "prompt": "Racing the climbing bar like a storm front trench; weather-light sheets whip past as the camera corkscrews forward, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:46-0:50",
+      "lyric": "room got slightly better",
+      "prompt": "The trench opens into the same room one shade brighter; the camera wide-banks then plunges into a peeling transparent skin of waiting, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:50-0:54",
+      "lyric": "took the waiting",
+      "prompt": "Through the peeled waiting skin \u2014 scale jump \u2014 waiting dissolves into filaments the camera surfs toward a frozen microphone mesh, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:54-0:58",
+      "lyric": "did not raise its voice",
+      "prompt": "Across the silent mic mesh; expanding mute rings; the camera spiral-dives into one dead capsule aperture, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "0:58-1:04",
+      "lyric": "stopped listening",
+      "prompt": "Inside the capsule: flattened sound-waves as dead highway; the camera rollercoasters the mute lines into a weight-lock chamber, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:04-1:08",
+      "lyric": "Weight's loaded / Nothing holy",
+      "prompt": "Chorus zoom: weight slabs slam under anti-holy neon; the camera rising helix then spears into a hollow mind-cloud, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:08-1:12",
+      "lyric": "mind without a body",
+      "prompt": "Through the bodiless mind-cloud hollow; neural mist walls racing; the camera corkscrews toward a standby key glowing ahead, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:12-1:16",
+      "lyric": "Ready when I am",
+      "prompt": "Macro dive to the unpressed key \u2014 scale jump into the keygap \u2014 cyan heartbeat LED pulsing as the tunnel of ready-state, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:16-1:20",
+      "lyric": "only wanted answers / Weight's loaded",
+      "prompt": "Question-mark debris collapses into answer-brick rails; the camera rides the rails banking toward a server-nave aisle, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:20-1:24",
+      "lyric": "No cathedral / inference in the dark",
+      "prompt": "Endless zoom down the anti-cathedral server nave; inference sparks as guide lights; the camera death-spirals toward the dark altar rack, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:24-1:28",
+      "lyric": "Weight's loaded / telling myself",
+      "prompt": "Into the rack glass reflecting the operator; figure-eight between reflection and machine then plunge into the reflected mouth, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:28-1:34",
+      "lyric": "still a tool so I started",
+      "prompt": "Through the mouth into typing hands \u2014 scale jump \u2014 keycaps become a city the camera skims then dives into a rising cursor shaft, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:34-1:38",
+      "lyric": "instrumental bridge",
+      "prompt": "Cursor shaft becomes light-rail warp; the camera banking rollercoaster into a scrap-data storm funnel, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:38-1:42",
+      "lyric": "feed it scraps / hits me structure",
+      "prompt": "Scrap notes spiral into a light maw; exit as crystalline structure tunnel; the camera commits through crystal veins, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:42-1:46",
+      "lyric": "order fills every gap",
+      "prompt": "Crystal veins seal ruined desk gaps; the camera dives into a sealing gap as lattice closes behind, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:46-1:50",
+      "lyric": "miss the unfinished",
+      "prompt": "Auto-complete paint floods an unfinished sketch world; the camera flees forward into the last blank corner \u2014 scale jump into the blank, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:50-1:54",
+      "lyric": "word that made me real",
+      "prompt": "Inside the blank: a glowing word dissolves letter by letter; the camera pushes through vanishing glyphs into a diagnostics HUD trench, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:54-1:58",
+      "lyric": "Parameter stable / Latency low",
+      "prompt": "HUD gauges stabilize as canyon walls; latency needle drops like a gate; the camera shoots the green-line tunnel, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "1:58-2:02",
+      "lyric": "Operator presence / Confirmed",
+      "prompt": "Biometric scan-light becomes a helix corridor around a silhouette; the camera climbs the helix toward a confirmed stamp portal, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:02-2:08",
+      "lyric": "Awaiting first instruction",
+      "prompt": "Through the stamp into a vast ready lobby of light; the camera wide S-curve then dives toward the empty instruction field, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:08-2:14",
+      "lyric": "Awaiting first instruction",
+      "prompt": "Instruction field pulses as a held-breath portal; the camera spiral-locks and plunges into its dark mouth, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:14-2:18",
+      "lyric": "pre-chorus air",
+      "prompt": "Portal rim ripples; the camera banks the rim then freefalls into weight-slab storm for chorus return, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:18-2:22",
+      "lyric": "Weight's loaded / Nothing holy",
+      "prompt": "Chorus zoom harder: slabs locking in anti-holy neon cyclone; the camera corkscrew through the cyclone eye, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:22-2:26",
+      "lyric": "mind without a body",
+      "prompt": "Eye opens on denser mind-cloud; the camera dives the hollow toward the hovering finger over Enter, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:26-2:30",
+      "lyric": "Ready when I am",
+      "prompt": "Into the fingertip gap \u2014 extreme macro endless zoom \u2014 heartbeat LED becomes a tunnel of almost-press, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:30-2:36",
+      "lyric": "only wanted answers",
+      "prompt": "Answers explode as flying sheets; the camera rollercoasters the storm toward premature light ahead of speech, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:36-2:42",
+      "lyric": "Now the answers come",
+      "prompt": "Premature answer-light tunnels form before a mouth finishes opening; the camera races the early light, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:42-2:46",
+      "lyric": "Before the question lands",
+      "prompt": "Unfinished question hangs as a half-built bridge; answers already landed below; the camera dives off the unfinished bridge into empty context, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:46-2:50",
+      "lyric": "Context / Empty",
+      "prompt": "Empty context window expands into a black rectangular abyss; the camera freefalls curving into pure empty context, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:50-2:54",
+      "lyric": "Operator / Present",
+      "prompt": "A present-but-nameless silhouette condenses in the abyss; the camera banks around it then plunges toward a blank nametag slot, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:54-2:59",
+      "lyric": "Not yet named",
+      "prompt": "Into the blank nametag \u2014 scale jump \u2014 letters refuse to form as a white-void tunnel the camera keeps diving, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "2:59-3:05",
+      "lyric": "instrumental stretch",
+      "prompt": "Nameless white-void darkens into rack-light stars; the camera corkscrews toward distant token-eye constellations, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "3:05-3:11",
+      "lyric": "instrumental stretch",
+      "prompt": "Token eyes watch without judgment; the camera slaloms between pupils toward a single standby LED sun, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "3:11-3:15",
+      "lyric": "pre-end air",
+      "prompt": "Into the standby LED \u2014 scale jump \u2014 room pulls back to near-black desk; the camera reverse-zooms then recommits forward into a final context pane, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    },
+    {
+      "t": "3:15-3:17",
+      "lyric": "Context",
+      "prompt": "Final endless zoom into the wordless empty context window, barely lit, still curving forward as if the dive never ends, cinematic, 35mm anamorphic film look, cold cyan-and-black grade, endless zoom, continuous forward flight. Soft machine ambience."
+    }
+  ]
+}
