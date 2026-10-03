@@ -144,7 +144,7 @@ def write_all(
     out_dir: Path,
     stem: str,
     *,
-    formats: Sequence[str] = ("json", "tsv", "srt", "vtt"),
+    formats: Sequence[str] = ("json", "tsv", "srt", "vtt", "txt"),
 ) -> dict[str, Path]:
     """Write requested formats; returns map format -> path."""
     out_dir.mkdir(parents=True, exist_ok=True)
